@@ -577,7 +577,7 @@ PROSES NGEHEK FB, MAINKAN MODE PESAWAT SETIAP 200 ID!
                     "content-length": str(random.randint(2000,2199)),
                     "sec-ch-ua": f'"Not.A/Brand";v="{str(random.randint(8,20))}", "Chromium";v="{str(random.randint(40,114))}", "Google Chrome";v="{str(random.randint(40,114))}"',
                     "sec-ch-ua-mobile": "?1",
-                    "user-agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 16_1_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/20B101 [FBAN/FBIOS;FBDV/iPhone10,2;FBMD/iPhone;FBSN/iOS;FBSV/16.1.1;FBSS/3;FBID/phone;FBLC/uk_UA;FBOP/5]",
+                    "user-agent": "Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3722.400 QQBrowser/10.5.3739.400",
                     "viewport-width": "360",
                     "x-response-format": "JSONStream",
                     "x-fb-lsd": re.search('name="lsd" value="(.*?)"',str(link.text)).group(1),
